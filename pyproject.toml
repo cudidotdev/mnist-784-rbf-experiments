@@ -10,3 +10,7 @@ dependencies = [
     "polars>=2.1.0",
     "scikit-learn>=1.9.1",
 ]
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14"]
+build-backend = "uv_build"
